@@ -1,15 +1,15 @@
 <head>
     <script src="https://gumroad.com/js/gumroad-embed.js"></script>
-    <title>Is this a great title for Towards Data Science?</title>
+    <title>Data Science is Fun!</title>
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 
 <body>
-    <h1>Is this a great title for Towards Data Science?</h1>
+    <h1>How would your title perform on Towards Data Science?</h1>
     <div id="cover">
         <form method="post" action="{{ url_for('predict') }}">
             <div class="tb">
-                <div class="td"><input type="text" placeholder="Your title.." name="title" required></div>
+                <div class="td"><input type="text" placeholder="Your Title ..." name="title" required></div>
                 <div class="td" id="s-cover">
                     <button type="submit">
                         <div id="s-circle"></div>
