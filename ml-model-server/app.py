@@ -29,9 +29,10 @@ def index():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    title = request.form['title']
+    title = request.form['title'].strip()
     explain = eli5.show_prediction(CLF, doc=title, vec=TFIDF, target_names=['Bad', 'Good'],
                                    targets=['Good'])
+    logger.info(title)
     return render_template('response.html', name='Response', title=title, explain=explain)
 
 

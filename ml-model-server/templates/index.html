@@ -5,24 +5,19 @@
 </head>
 
 <body>
-    <div id="top">
-        <h1>Is this a great title for Towards Data Science?</h1>
-        <div id="cover">
-            <form method="post" action="{{ url_for('predict') }}">
-                <div class="tb">
-                    <div class="td"><input type="text" placeholder="Your title.." name="title" required></div>
-                    <div class="td" id="s-cover">
-                        <button type="submit">
-                            <div id="s-circle"></div>
-                            <span></span>
-                        </button>
-                    </div>
+    <h1>Is this a great title for Towards Data Science?</h1>
+    <div id="cover">
+        <form method="post" action="{{ url_for('predict') }}">
+            <div class="tb">
+                <div class="td"><input type="text" placeholder="Your title.." name="title" required></div>
+                <div class="td" id="s-cover">
+                    <button type="submit">
+                        <div id="s-circle"></div>
+                        <span></span>
+                    </button>
                 </div>
-            </form>
-        </div>
+            </div>
+        </form>
     </div>
-
-    <div id='bottom'>
-        <div class="gumroad-product-embed" data-gumroad-product-id="vxxiV" data-outbound-embed="true"><a href="https://gumroad.com/l/vxxiV">Loading...</a></div>
-    </div>
+    <div class="gumroad-product-embed" data-gumroad-product-id="vxxiV" data-outbound-embed="true"><a href="https://gumroad.com/l/vxxiV">Loading...</a></div>
 </body>

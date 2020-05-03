@@ -47,7 +47,6 @@ input, button
 
 #cover
 {
-    position: absolute;
     left: 0;
     right: 0;
     width: 1000px;
@@ -170,28 +169,6 @@ button span:before, button span:after
     right: -6px;
     width: 40px;
     background-color: #fff;
-}
-
-
-#top {
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 20%;
-}
-
-#top2 {
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 50%;
-}
-
-#bottom {
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 80%;
 }
 
 #inner {
