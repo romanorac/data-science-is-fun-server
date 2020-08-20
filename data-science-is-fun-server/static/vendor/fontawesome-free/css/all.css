@@ -31,7 +31,8 @@
   font-size: 1em; }
 
 .fa-2x {
-  font-size: 2em; }
+  font-size: 2em; 
+  vertical-align: middle; }
 
 .fa-3x {
   font-size: 3em; }
